@@ -1,0 +1,18 @@
+name: Grey-Galaxy
+version: "1.0"
+api-version: 1.16
+main: joshix.bluegalaxy.main.Main
+website: blue-galaxy.eu
+commands:
+   greygalaxy:
+   gg:
+   lobby:
+   backpack:
+   bp:
+   inv:
+   ec:
+   enderchest:
+   rickroll:
+   god:
+   afk:
+   mute:
