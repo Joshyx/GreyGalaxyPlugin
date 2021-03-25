@@ -21,11 +21,7 @@ import joshi.bluegalaxy.commands.RickrollCommand;
 import joshix.bluegalaxy.listeners.AFKListener;
 import joshix.bluegalaxy.listeners.Listerners;
 import joshix.bluegalaxy.recipes.Recipes;
-/*
-import net.dv8tion.jda.api.JDA;
-import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.entities.Activity;
-*/
+
 public class Main extends JavaPlugin{
 	
 	//public static JDA dcApi; 
@@ -40,15 +36,6 @@ public class Main extends JavaPlugin{
 	public static HashMap<Player, Inventory> backpack = new HashMap<>();
 
 	public void onEnable(){
-		/*
-		try {
-			dcApi = JDABuilder.createDefault("ODA1MDk0ODIyNDg2MzQzNjgx.YBV4-w.m46_cJQAvu1-U0WWXCUu8RXKRH4").build();
-		} catch(Exception e){
-			System.out.println("Falsches Token");
-		}
-		
-		dcApi.getPresence().setActivity(Activity.streaming("Blue Galaxy", "https://blue-galaxy.eu"));
-		*/
 		instance = this;
 		
 		getCommand("greygalaxy").setExecutor(new InfoCommand());
