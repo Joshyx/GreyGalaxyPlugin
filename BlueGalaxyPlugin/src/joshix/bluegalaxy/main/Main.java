@@ -24,7 +24,6 @@ import joshix.bluegalaxy.recipes.Recipes;
 
 public class Main extends JavaPlugin{
 	
-	//public static JDA dcApi; 
 	public static Main instance;
 	
 	
